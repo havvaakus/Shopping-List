@@ -17,7 +17,7 @@ addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
     
     push(shoppingListInDB, inputValue)
-    
+    // To clear inputvalue after enter the value
     inputFieldEl.value = ""
     
     shoppingListEl.innerHTML += `<li>${inputValue}</li>`

@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #ffd1dc;
+    color: #c02642;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    margin: 30px auto;
+}
+
+img {
+    width: 270px;
+    margin: 0 auto;
+}
+
+input {
+    color: #c02642;
+    background-color: #ffe5ed;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}
+
+button {
+    color: #c02642;
+    background-color: #ffdd45;
+    border: 4 px;
+    padding: 15px;
+    border-radius: 8px;
+    border-color: #c02642;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}

@@ -22,8 +22,13 @@ img {
     margin: 0 auto;
 }
 
-input {
+::placeholder {
     color: #c02642;
+    opacity: 0.7;
+}
+
+input {
+
     background-color: #ffe5ed;
     border: 0;
     padding: 15px;
@@ -46,4 +51,24 @@ button {
     font-weight: bolder;
     text-align: center;
     font-family: 'Rubik', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    
+    background-color: #ffe5ed;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);                                                                                     
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 20px;
+    
 }

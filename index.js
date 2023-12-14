@@ -48,8 +48,16 @@ function clearInputFieldEl() {
 }
 
 function appendItemToShoppingListEl(item) {
+    
+
     let itemID = item[0]
     let itemValue = item[1]
+    
+    // bosluk girildigi zaman bos kutu eklememesi icin
+    if (item[1].trim() === '') {
+        console.error("Add to cart is failed: Empty Text");
+        return;
+    }
     
     let newEl = document.createElement("li")
     

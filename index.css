@@ -81,3 +81,17 @@ ul li:hover {
     background-color: #ffc4d8;
     cursor: pointer;
 }
+
+.footerSection {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffd1dc;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: #c02642;
+    font-weight: bolder;
+    font-style: italic;
+}

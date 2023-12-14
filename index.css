@@ -34,7 +34,7 @@ input {
     border: 0;
     padding: 15px;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bolder;
     text-align: center;
     font-family: 'Rubik', sans-serif;
@@ -88,7 +88,6 @@ ul li:hover {
     left: 0;
     width: 100%;
     background-color: #ffd1dc;
-    text-align: center;
     padding: 20px;
     font-family: 'Rubik', sans-serif;
     color: #c02642;

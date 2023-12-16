@@ -40,7 +40,7 @@ input {
     font-weight: bolder;
     text-align: center;
     font-family: 'Rubik', sans-serif;
-    margin: 7px 50px;
+    margin: 7px 20px;
 }
 
 button {
@@ -54,7 +54,7 @@ button {
     font-weight: bolder;
     text-align: center;
     font-family: 'Rubik', sans-serif;
-    margin: 0px 50px;
+    margin: 0px 20px;
 }
 button:hover {
     background-color: #FFD700;

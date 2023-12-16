@@ -75,5 +75,5 @@ function appendItemToShoppingListEl(item) {
     shoppingListEl.append(newEl)
 }
 
-let siteOwnerName = "as a New Year's gift for Nani";
+let siteOwnerName = "Designed by a Civcik as a New Year's gift for Nani";
 document.getElementById("siteOwner").textContent += siteOwnerName;
